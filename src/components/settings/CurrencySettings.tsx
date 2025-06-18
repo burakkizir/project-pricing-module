@@ -14,6 +14,7 @@ const currencyOptions: Array<{ value: CurrencyCode; label: string; symbol: strin
 const languageOptions = [
   { value: 'tr', label: 'Türkçe' },
   { value: 'en', label: 'English' }
+  
 ];
 
 export const CurrencySettings: React.FC = () => {
